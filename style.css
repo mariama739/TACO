@@ -6,6 +6,10 @@
     background-image: url(image/backgroun1-1.jpg);
     background-size: cover;
  }
+.navbar-nav li a:hover{
+    color: #ffc107;
+    text-decoration: underline;
+}
 
 .left{
     margin-left: 50%;
