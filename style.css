@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section1{
+    background-image: url(image/backgroun1-1.jpg);
+    background-size: cover;
+ }
+
+.left{
+    margin-left: 50%;
+}
+.taco{
+    font-weight: 400;
+    font-size: 250px;
+    margin-left: 8%;
+    margin-bottom: 100px;
+}
+.section3{
+    background-image: url(image/background\ 2-1.jpg);
+    background-size: cover;
+}
+.section6{
+    background-image: url(image/background\ 3-1.jpg);
+    background-size: cover;
+}
+.lien{
+    margin-left: 30%;
+}
+.img{
+    background-size: cover;
+    object-fit: cover;
+}
+@media (max-width:500px){
+    .taco {
+            font-size: 100px;
+        }
+    .left{
+        margin-left: 0;
+    }
+    .img{
+        width: 100%;
+    }
+}
+@media (min-width:501px) and (max-width:800px){
+    .taco {
+            font-size: 150px;
+        }
+    
+        .left {
+            margin-left: 0;
+        }
+    
+        .img {
+            width: 100%;
+        }
+}
